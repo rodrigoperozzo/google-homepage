@@ -2,12 +2,15 @@
 #centered{
 	display: block;
 	text-align: center;
-
 }
 
 .test{
-	width: 480px;
-	height: 34px;
+	width: 584px;
+	height: 44px;
+	background-color: white;
+	border-color: rgba(0, 0, 0, 0.180);
+	border-radius: 2px;
+	font-size: small;
 }
 
 #toplist{
@@ -31,5 +34,29 @@
 }
 
 li a:hover{
-	background-color: #111;
+	background-color: rgb(49, 49, 49);
+}
+
+#botlist{
+	list-style-type: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+	padding: 0;
+}
+
+#botlist li{
+	float: left;
+}
+
+#botlist li a{
+	color: gray;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+}
+
+#imagem{
+	padding-top: 109px;
+	margin-top: 89px;
 }
