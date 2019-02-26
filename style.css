@@ -1,3 +1,17 @@
+li{
+	font-size: 13px;
+	font-family: sans-serif;
+}
+
+#sininho{
+	height: 25px;
+	width: 25px;
+	background-color: white;
+}
+
+#sininho:hover{
+	background-color: gray;
+}
 
 #centered{
 	display: block;
@@ -27,14 +41,13 @@
 }
 
 #toplist li a{
-	color: gray;
 	text-align: center;
 	padding: 8px 8px;
-	text-decoration: none;
 }
 
 li a:hover{
-	background-color: rgb(49, 49, 49);
+	color: rgb(49, 49, 49);
+	text-decoration: underline;
 }
 
 #botlist{
@@ -59,4 +72,11 @@ li a:hover{
 #imagem{
 	padding-top: 109px;
 	margin-top: 89px;
+}
+
+#botnavbar{
+	border: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	height: 42px;
+	width: 100%; 
 }
