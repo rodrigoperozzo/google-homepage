@@ -3,14 +3,22 @@ li{
 	font-family: sans-serif;
 }
 
-#sininho{
-	height: 25px;
-	width: 25px;
+#sininho, #tecladinho {
+	opacity: 0.70;
+	height: 26px;
+	width: 26px;
 	background-color: white;
 }
 
-#sininho:hover{
-	background-color: gray;
+#bolinha {
+	fill: orange;
+	height: 35px;
+	width: 35px;
+	margin-bottom: 3px;
+}
+
+#sininho:hover, #tecladinho:hover{
+	opacity: 1;
 }
 
 #centered{
@@ -37,6 +45,7 @@ li{
 }
 
 #toplist li{
+	display: table;
 	float: right;
 }
 
