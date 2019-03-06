@@ -1,6 +1,5 @@
 li{
-	font-size: 13px;
-	font-family: sans-serif;
+	font-family: Arial;
 }
 
 #sininho, #tecladinho {
@@ -27,8 +26,9 @@ li{
 }
 
 .test{
-	width: 584px;
-	height: 44px;
+	width: 582px;
+	height: 34px;
+	padding: 5px 8px 0px 20px;
 	background-color: white;
 	border-color: rgba(0, 0, 0, 0.180);
 	border-radius: 2px;
@@ -45,6 +45,7 @@ li{
 }
 
 #toplist li{
+	font-size: 13px;
 	display: table;
 	float: right;
 }
@@ -83,9 +84,24 @@ li a:hover{
 	margin-top: 89px;
 }
 
-#botnavbar{
-	border: 1px solid #e4e4e4;
+#brasilnavbar{
+	font-size: 15px;
+	position: fixed;
+	bottom: 42px;
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
 	background-color: #f2f2f2;
 	height: 42px;
-	width: 100%; 
+	width: 100%;
+}
+
+#botnavbar{
+	font-size: 10pt;
+	position: fixed;
+	bottom: 0%;
+	border-bottom: 1px solid #e4e4e4;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	height: 42px;
+	width: 100%;
 }
